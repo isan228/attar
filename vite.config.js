@@ -5,6 +5,6 @@ export default defineConfig({
   plugins: [vue()],
   base: process.env.NODE_ENV === 'production' ? '/horse-marketplace/' : '/',
   server: {
-    port: 5000
+    port: 3000
   }
 })
